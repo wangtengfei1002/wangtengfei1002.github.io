@@ -1,0 +1,6 @@
+[0331/162808.609:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0408/111927.595:ERROR:process_reader_win.cc(233)] ReadMemory at 0x5653fe8 of 32768 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0408/111927.595:WARNING:pe_image_annotations_reader.cc(65)] could not read simple annotations from C:\Program Files (x86)\Google\Chrome\Application\57.0.2987.98\chrome_elf.dll
+[0408/112117.952:ERROR:process_reader_win.cc(233)] ReadMemory at 0x783fe8 of 32768 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0408/112117.952:WARNING:pe_image_annotations_reader.cc(65)] could not read simple annotations from C:\Program Files (x86)\Google\Chrome\Application\57.0.2987.98\chrome_elf.dll
+[0408/112117.983:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)

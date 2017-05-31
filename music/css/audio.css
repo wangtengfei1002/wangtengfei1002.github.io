@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	
+}
+body{
+	background-image: url(../img/8670.jpg_wh1200.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+audio{
+	display: none;
+}
+.top{
+	width: 600px;
+	height: auto;
+	margin:20px auto;
+	font-size: 16px;
+	color:#000;
+	text-align: center;
+}
+.top>.song,.top>.author{
+	font-size: 20px;
+	margin-top:20px;
+	font-weight: 800;	
+}
+.top .lyrics{
+	max-height: 550px;
+	overflow: hidden;
+}
+.top .lyrics li{
+	padding:10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.top>.lyrics .hot{
+	color:red;
+}
+.bottom{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.2);
+}
+.bottom>.content{
+	width: 1000px;
+	height: 100%;
+	margin:auto;
+}
+.content>.left{
+	float:left;
+	width: 150px;
+	font-size:20px ;
+	color:#fff;
+	line-height: 100px;
+}
+.left .iconfont{
+	font-size: 40px;
+}
+.left .iconfont:nth-child(2){
+	font-size: 50px;
+}
+.content>.middle{
+	float:left;
+	width: 650px;
+	margin:0 25px;
+	font-size:20px ;
+}
+.middle>img{
+	display: block;
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-top:12px
+}
+.right .iconfont{
+	font-size: 35px;
+	float: left;
+}
+.progress>.ptop{
+	height: 30px;
+}
+.ptop>.info{
+	float: left;
+}
+.ptop>.time{
+	float: right;
+}
+.middle .progress{
+	height: 100px;
+	width: 500px;
+	float: left;
+	margin-left:10px;
+	line-height: 40px;
+}
+.content>.right{
+	float:left;
+	width:150px;
+	font-size:20px ;
+}
+.pbottom>.box{
+	width: 100%;
+	height: 10px;
+	border-radius: 3px;
+	background: green;
+	position: relative;
+	margin-top:10px
+}
+.pbottom>.box>.son{
+	height: 100%;
+	border-radius: 3px;
+	background: #13BBF4;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.volume{
+	width:100px;
+	height: 10px;
+	background: #FF6700;
+	border-radius: 4px;
+	position: relative;
+	float: right;
+	margin-top:15px;
+}
+.volumeC{
+	width: 50%;
+	height: 100%;
+	border-radius: 4px;
+	background: green;
+}
+.volumebtn{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	left:50%;
+	top:0;
+	background: #fff;
+ 
+	
+}
