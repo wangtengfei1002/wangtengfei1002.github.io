@@ -167,6 +167,8 @@ nav {
   margin: 50px 80px;
   perspective: 800px;
   background: url("../images/aa2.png");
+  background-size: cover;
+  border-radius: 50%;
   color: #fff;
   position: absolute;
   left: 0;
