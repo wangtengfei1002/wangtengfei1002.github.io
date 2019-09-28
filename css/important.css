@@ -101,11 +101,7 @@
     color: #cecece;
     letter-spacing: 2px;
 }
-.marketing-page .l-category-header {
-    height: 800px;
-    background: url(../img/ix_img-386x239.png);
-    background-size: cover;
-}
+
 .marketing-text-wrap {
     width:500px;
     margin: 0 auto;
@@ -117,11 +113,7 @@
 .mt-100 {
     margin-top: 100px;
 }
-.creative-page .l-category-header {
-    background: url(../img/work-bg.jpg);
-    background-size: cover;
-    color: #000;
-}
+
 .creative-page .l-category-header__title-en {
     color: #000;
     font-weight: bold;
