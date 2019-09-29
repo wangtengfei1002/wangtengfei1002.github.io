@@ -18,7 +18,7 @@
 }
 .swiper-new-container {
     width: calc(100% - 120px);
-    margin: 56px auto 0;
+    margin: 86px auto 0;
     position: relative;
     overflow: hidden;
     border-top: 12px solid #fff;
@@ -101,7 +101,11 @@
     color: #cecece;
     letter-spacing: 2px;
 }
-
+.marketing-page .l-category-header {
+    height: 800px;
+    background: url(../img/ix_img-386x239.png);
+    background-size: cover;
+}
 .marketing-text-wrap {
     width:500px;
     margin: 0 auto;
@@ -113,7 +117,11 @@
 .mt-100 {
     margin-top: 100px;
 }
-
+.creative-page .l-category-header {
+    background: url(../img/work-bg.jpg);
+    background-size: cover;
+    color: #000;
+}
 .creative-page .l-category-header__title-en {
     color: #000;
     font-weight: bold;
@@ -213,10 +221,60 @@
 .cc-content {
     font-size: 24px;
 }
+.is-marketing .activ_con02.ani_act02 h3 {
+    margin-top: 180px
+}
+.is-marketing .p_f_03 .cl_con03 {
+    height: 938px;
+}
 .is-wrap {
     padding-bottom: 50px;
+    height: 938px;
 }
+.is-marketing .cl_con03 {
+    height: 938px;
+}
+.web-server-page .serv_con01 .serv_c01_left li p:first-child {
+    position: relative;
+}
+.web-server-page .serv_con01 .serv_c01_left li p:first-child img {
+    position: absolute;
+    bottom: 0;
+}
+/* .web-server-page .serv_c01_left ul {
+    margin-top: 0;
+} */
+.web-server-page .serv_c01_left li{
+    margin-top: 20px;
+}
+.marketing-text--- {
+    letter-spacing: 25px;
+}
+.marketing-text---- {
+    letter-spacing: 80px;
+}
+.junk-logo {
+    position: relative;
+}
+.junk-logo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    transition: all 2s ease-in-out;
+}
+.junk-logo.active:before {
+    content: '';
+    width: 0;
+}
+
 @media (max-width: 1366px) {
+    .is-marketing .activ_con02.ani_act02 h3 {
+        margin-top: 50px;
+    }
     /* .serv_con02 .serv_c02_right .c02_r_con {
         margin-left:40px;
     } */
@@ -399,7 +457,7 @@
 .web-header {
     background: #a61d39 !important;
     overflow: hidden;
-    height: 750px;
+    height: 838px;
     position: relative;
 }
 .web-header .left {
@@ -435,7 +493,7 @@
     float: left;
 }
 .web-header h3 {
-    margin-top: 160px;
+    margin-top: 200px;
     color: #fff !important;
 }
 .web-header h3 p{
@@ -480,6 +538,9 @@ h3 p.f_title {
     width: 25% !important;
 }
 @media only screen and (max-width: 1366px){
+    .web-header {
+        height: 750px;
+    }
     .swiper-new-container {
         margin-top: 130px;
     }
